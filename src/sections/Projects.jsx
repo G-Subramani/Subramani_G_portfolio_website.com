@@ -1,11 +1,12 @@
 import { ArrowUpRight, ExternalLink } from "lucide-react";
 import { AnimatedBorderButton } from "/src/component/AnimatedBorderButton.jsx";
+const baseUrl = import.meta.env.BASE_URL;
 const projects = [
   {
     title: "AI-Powered Risk Intelligence & Compliance RAG Engine",
     description:
       "A comprehensive system Transforming Compliance, Audit, and Patient Access Operations with Generative AI.",
-    image: "/project/project1.png",
+    image: `${baseUrl}project/project1.png`,
     tags: ["Retrieval-Augmented Generation (RAG)", "LangChain", "Large Language Models (LLMs)"],
     link: "#",
     github: "https://github.com/G-Subramani/AI-Powered-Risk-Intelligence-Compliance-RAG-Engine",
@@ -14,7 +15,7 @@ const projects = [
     title: "Fraud & Anomaly Detection System",
     description:
       "Leveraging Machine Learning and Graph Analytics to Detect Financial Irregularities and Operational Risk.",
-    image: "/project/project2.png",
+    image: `${baseUrl}project/project2.png`,
     tags: ["Unsupervised Learning (Isolation Forest)", "Graph Networks", "XGBoost", "PostgreSQL", "Power BI"],
     link: "#",
     github: "https://github.com/G-Subramani/Fraud-Anomaly-Detection-System",
@@ -23,7 +24,7 @@ const projects = [
     title: "Customer Segmentation & Personalization Engine",
     description:
       "Leveraging Machine Learning and Customer Analytics to Drive Growth, Retention, and Personalized Shopping Experiences.",
-    image: "/project/project3.png",
+    image: `${baseUrl}project/project3.png`,
     tags: ["Customer Segmentation", "K-Means Clustering", "Random Forest", "Recommendation System","Power BI"],
     link: "#",
     github: "https://github.com/G-Subramani/Customer-Segmentation-Personalization-Engine",
@@ -32,7 +33,7 @@ const projects = [
     title: "Supply Chain Optimization & Demand Forecasting System",
     description:
       "Transforming Inventory Planning and Customer Demand Forecasting through Machine Learning.",
-    image: "/project/project4.png",
+    image: `${baseUrl}project/project4.png`,
     tags: ["SARIMA Models", "Facebook Prophet", "XGBoost Forecasting Models","MongoDB", "AWS","Google Analytics 4 (GA4)",],
     link: "#",
     github: "https://github.com/G-Subramani/Supply-Chain-Optimization-Demand-Forecasting-System",
@@ -41,7 +42,7 @@ const projects = [
     title: "Protein Engineering & Drug Discovery Engine",
     description:
       "Accelerating Therapeutic Research for Neurodegenerative Diseases Using Generative AI and Computational Biology.",
-    image: "/project/project5.png",
+    image: `${baseUrl}project/project5.png`,
     tags: ["Generative AI", "LLMs(Hugging Face)", "Python", "Bioinformatics", "Machine Learning", "NLP", "Transformers"],
     link: "#",
     github: "https://github.com/G-Subramani/Protein-Engineering-Drug-Discovery-Engine",
@@ -50,7 +51,7 @@ const projects = [
     title: "Enzyme Activity Prediction & Research Analytics",
     description:
       "Accelerating Enzyme Discovery Through Machine Learning and Experimental Intelligence",
-    image: "/project/project6.png",
+    image: `${baseUrl}project/project6.png`,
     tags: ["Machine Learning", "XGBoost", "Random Forest", "Python", "Power BI", "Dash (Plotly)." ],
     link: "#",
     github: "https://github.com/G-Subramani/Enzyme-Activity-Prediction-Research-Analytics-",
